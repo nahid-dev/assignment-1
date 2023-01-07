@@ -1,0 +1,145 @@
+/* Basic Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.main-btn{
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 25px;
+}
+/* Start Banner Section */
+header{
+	background-image: url(../images/banner/banner3.png);
+    max-width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    height: 800px;
+}
+#banner {
+	width: 1140px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+.blank-content{
+    width: 50%;
+    height: 800px;
+}
+.main-content{
+    width: 50%;
+    text-align: right;
+}
+.main-content h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    margin-bottom: 20px;
+}
+.main-content p{
+    color: #fff;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+
+/* Start Failures section */
+#failures{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+}
+.text-area {
+	padding: 0 60px;
+    margin-left: 50px;
+}
+.text-area h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 30px;
+}
+.text-area p{
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.text-area ul{
+    list-style: none;
+}
+.text-area ul li{
+    margin-bottom: 10px;
+    color: #444343;
+}
+.text-area ul img{
+    margin: 0 10px -7px 0;
+}
+/* Start my plan section */
+#my-plan{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 80px 0;
+    text-align: center;
+}
+#my-plan h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 50px;
+
+}
+.plan-group{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan-item img{
+    margin-bottom: 20px;
+}
+.plan-item h3{
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
+.plan-item p{
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+}
+/* Start alwayes section */
+#alwayes{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 50px;
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.alwayes-content{
+    width: 50%;
+}
+.alwayes-content h4{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    margin-bottom: 30px;
+}
